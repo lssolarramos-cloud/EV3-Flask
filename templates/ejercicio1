@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio 1</title>
+</head>
+<body>
+
+    <h1>Ejercicio 1</h1>
+
+    <p>Esta es la primera página del ejercicio.</p>
+
+    <a href="/">Volver al inicio</a>
+
+</body>
+</html>
