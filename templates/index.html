@@ -1,16 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Página Principal</title>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+
+    <style>
+
+        body{
+            background-color: #e6e6e6;
+            text-align: center;
+            font-family: Arial;
+            margin-top: 100px;
+        }
+
+        .boton{
+            display: inline-block;
+            width: 250px;
+            padding: 30px;
+            margin: 20px;
+            background-color: #0d6efd;
+            color: white;
+            text-decoration: none;
+            font-size: 40px;
+            border-radius: 20px;
+        }
+
+        .boton:hover{
+            background-color: #0b5ed7;
+        }
+
+    </style>
+
 </head>
+
 <body>
 
-    <h1>Bienvenido al Proyecto Flask</h1>
+    <a href="/ejercicio1" class="boton">
+        Ejercicio 1
+    </a>
 
-    <a href="/ejercicio1">Ir a Ejercicio 1</a>
-    <br><br>
+    <br>
 
-    <a href="/ejercicio2">Ir a Ejercicio 2</a>
+    <a href="/ejercicio2" class="boton">
+        Ejercicio 2
+    </a>
 
 </body>
 </html>
